@@ -1,0 +1,9 @@
+300120230301, 14,  "Stanley #2 Philips Screwdriver", 6.95, 4, 0, $27.8 01/30/23, 03:01:748, AM EST
+300120230301, 3451,  "Oakley Jawbreaker sunglasses", 236.0, 7, 10, $1679.8 01/30/23, 03:01:748, AM EST
+300120230301, 14,  "Stanley #2 Philips Screwdriver", 6.95, 2, 0, $13.9 01/30/23, 03:01:548 AM EST
+300120230301, 3451,  "Oakley Jawbreaker sunglasses", 236.0, 9, 10, $2137.9 01/30/23, 03:01:548 AM EST
+300120230401, 3451,  "Oakley Jawbreaker sunglasses", 236.0, 2, 0, $472.0 01/30/23, 04:01:291 AM EST
+300120230401, 14,  "Stanley #2 Philips Screwdriver", 6.95, 2, 0, $485.9 01/30/23, 04:01:291 AM EST
+300120230401, 22389,  "Swingline Model B2200 stapler", 18.0, 22, 20, $396.0 01/30/23, 04:01:917 AM EST
+300120230401, 2190,  "Hefty 30 gal with handles - box 40", 19.0, 100, 20, $2296.0 01/30/23, 04:01:917 AM EST
+300120230401, 234887,  "2021 CSX train calendar", 12.95, 5, 10, $2360.5 01/30/23, 04:01:917 AM EST
