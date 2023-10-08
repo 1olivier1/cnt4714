@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <style>
+        h1{
+           color: yellow;
+        text-align: center;
+        }
+        h2{
+              color: greenyellow;
+        text-align: center;
+        }
+        h3{
+            color: red
+        }
+      body {
+        background-color: black;
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      input[type="text"], input[type="password"] {
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 10px;
+      }
+      input[type="submit"] {
+        background-color: yellow;
+        color: green;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to the Spring 2023 project 4 Enterprise System</h1>
+    <h2>A Servelt/ JSP-based mutil tiered Enterpise Application using a <br> Tomcat continer </h2>  
+    <h3>User Authentication page</h3>
+    <form action="authenticate" method="get">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br>
+      <input type="submit" value="click to authenticate">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+    
+     <servlet>
+        <servlet-name>Auth</servlet-name>
+        <servlet-class>project4.AuthenticationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Auth</servlet-name>
+        <url-pattern>/authenticate</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>RootSql</servlet-name>
+        <servlet-class>project4.RootSqlServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RootSql</servlet-name>
+        <url-pattern>/rootSql</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ClientSql</servlet-name>
+        <servlet-class>project4.ClientSqlServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClientSql</servlet-name>
+        <url-pattern>/clientSql</url-pattern>
+    </servlet-mapping>
+    
+
+    <servlet>
+        <servlet-name>SuppSql</servlet-name>
+        <servlet-class>project4.SupplierSqlServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SuppSql</servlet-name>
+        <url-pattern>/SupplierSqlServlet</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>PartSql</servlet-name>
+        <servlet-class>project4.PartSqlServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PartSql</servlet-name>
+        <url-pattern>/PartSqlServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>JobSql</servlet-name>
+        <servlet-class>project4.JobSqlServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JobSql</servlet-name>
+        <url-pattern>/JobSqlServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ShipSql</servlet-name>
+        <servlet-class>project4.ShipmentSqlServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShipSql</servlet-name>
+        <url-pattern>/ShipmentSqlServlet</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
